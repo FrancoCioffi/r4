@@ -1,0 +1,57 @@
+/* hero.css */
+
+#hero {
+  background-color: #1c1c1cec;
+  color: #F5F5F5; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  text-align: center;
+  padding: 0 20px;
+}
+
+.heroContainer {
+  max-width: 800px; 
+  padding: 20px; 
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+  background-color: rgba(28, 28, 28, 0.85);
+}
+.name h1 {
+  font-size: 3rem; 
+  margin-bottom: 20px; 
+}
+
+.skills p {
+  font-size: 1.2rem; 
+  margin: 10px 0; 
+}
+
+.cta button {
+  background-color: #00A676; 
+  color: #F5F5F5; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  font-size: 1rem; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.cta button:hover {
+  background-color: #00509E;
+}
+
+.fadeIn  {
+  opacity: 0; 
+  transform: translateY(20px); 
+  animation: fadeIn 2s forwards; 
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
