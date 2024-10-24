@@ -3,19 +3,19 @@ import './styles/projects.css';
 
 const projectsList = [
   {
-    title: 'Project 1',
-    description: 'Descripción breve del proyecto 1.',
-    link: 'https://enlace-al-proyecto-1', // Enlace al proyecto
+    title: 'Primer Projecto Hecho en react',
+    description: 'Primera pagina hecha en react.',
+    link: 'https://react1-6b814.web.app', 
   },
   {
-    title: 'Project 2',
-    description: 'Descripción breve del proyecto 2.',
-    link: 'https://enlace-al-proyecto-2',
+    title: 'Desarrollo de Hooks y Eventos',
+    description: 'Ejercicios usando diferentes hooks y eventos',
+    link: 'https://react2-ac25d.web.app',
   },
   {
-    title: 'Project 3',
-    description: 'Descripción breve del proyecto 3.',
-    link: 'https://enlace-al-proyecto-3',
+    title: 'Manejo de Rutas',
+    description: 'Lista de tareas usando manejo de rutas.',
+    link: 'https://react3-ea5c0.web.app',
   },
 ];
 
